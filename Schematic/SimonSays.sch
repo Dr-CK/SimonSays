@@ -1,0 +1,498 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Christoffer Karlsson"
+Date "2022-01-11"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 61DDCE7D
+P 3900 1350
+F 0 "SW1" H 3900 1585 50  0000 C CNN
+F 1 "Red button" H 3900 1494 50  0000 C CNN
+F 2 "" H 3900 1350 50  0001 C CNN
+F 3 "~" H 3900 1350 50  0001 C CNN
+	1    3900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 61DDD473
+P 3750 1750
+F 0 "D1" H 3743 1967 50  0000 C CNN
+F 1 "LED" H 3743 1876 50  0000 C CNN
+F 2 "" H 3750 1750 50  0001 C CNN
+F 3 "~" H 3750 1750 50  0001 C CNN
+	1    3750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 61DDE410
+P 3750 2150
+F 0 "D2" H 3743 2367 50  0000 C CNN
+F 1 "LED" H 3743 2276 50  0000 C CNN
+F 2 "" H 3750 2150 50  0001 C CNN
+F 3 "~" H 3750 2150 50  0001 C CNN
+	1    3750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 61DDEF3F
+P 4050 1950
+F 0 "R1" V 3845 1950 50  0000 C CNN
+F 1 "R" V 3936 1950 50  0000 C CNN
+F 2 "" V 4090 1940 50  0001 C CNN
+F 3 "~" H 4050 1950 50  0001 C CNN
+	1    4050 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 2150 3900 1950
+Wire Wire Line
+	3900 1950 3900 1750
+Connection ~ 3900 1950
+Wire Wire Line
+	3600 2150 3500 2150
+Wire Wire Line
+	3500 2150 3500 1950
+Wire Wire Line
+	3500 1750 3600 1750
+Wire Wire Line
+	3700 1350 3250 1350
+Wire Wire Line
+	3250 1350 3250 1950
+Wire Wire Line
+	3250 1950 3500 1950
+Connection ~ 3500 1950
+Wire Wire Line
+	3500 1950 3500 1750
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 61DE2CA0
+P 3900 2650
+F 0 "SW2" H 3900 2885 50  0000 C CNN
+F 1 "Green button" H 3900 2794 50  0000 C CNN
+F 2 "" H 3900 2650 50  0001 C CNN
+F 3 "~" H 3900 2650 50  0001 C CNN
+	1    3900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 61DE2CA6
+P 3750 3050
+F 0 "D3" H 3743 3267 50  0000 C CNN
+F 1 "LED" H 3743 3176 50  0000 C CNN
+F 2 "" H 3750 3050 50  0001 C CNN
+F 3 "~" H 3750 3050 50  0001 C CNN
+	1    3750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 61DE2CAC
+P 3750 3450
+F 0 "D4" H 3743 3667 50  0000 C CNN
+F 1 "LED" H 3743 3576 50  0000 C CNN
+F 2 "" H 3750 3450 50  0001 C CNN
+F 3 "~" H 3750 3450 50  0001 C CNN
+	1    3750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 61DE2CB2
+P 4050 3250
+F 0 "R2" V 3845 3250 50  0000 C CNN
+F 1 "R" V 3936 3250 50  0000 C CNN
+F 2 "" V 4090 3240 50  0001 C CNN
+F 3 "~" H 4050 3250 50  0001 C CNN
+	1    4050 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 3450 3900 3250
+Wire Wire Line
+	3900 3250 3900 3050
+Connection ~ 3900 3250
+Wire Wire Line
+	3600 3450 3500 3450
+Wire Wire Line
+	3500 3450 3500 3250
+Wire Wire Line
+	3500 3050 3600 3050
+Wire Wire Line
+	3700 2650 3250 2650
+Wire Wire Line
+	3250 2650 3250 3250
+Wire Wire Line
+	3250 3250 3500 3250
+Connection ~ 3500 3250
+Wire Wire Line
+	3500 3250 3500 3050
+Wire Wire Line
+	4200 3250 5400 3250
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 61DE7EBB
+P 3900 3950
+F 0 "SW3" H 3900 4185 50  0000 C CNN
+F 1 "Yellow button" H 3900 4094 50  0000 C CNN
+F 2 "" H 3900 3950 50  0001 C CNN
+F 3 "~" H 3900 3950 50  0001 C CNN
+	1    3900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 61DE7EC1
+P 3750 4350
+F 0 "D5" H 3743 4567 50  0000 C CNN
+F 1 "LED" H 3743 4476 50  0000 C CNN
+F 2 "" H 3750 4350 50  0001 C CNN
+F 3 "~" H 3750 4350 50  0001 C CNN
+	1    3750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 61DE7EC7
+P 3750 4750
+F 0 "D6" H 3743 4967 50  0000 C CNN
+F 1 "LED" H 3743 4876 50  0000 C CNN
+F 2 "" H 3750 4750 50  0001 C CNN
+F 3 "~" H 3750 4750 50  0001 C CNN
+	1    3750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 61DE7ECD
+P 4050 4550
+F 0 "R3" V 3845 4550 50  0000 C CNN
+F 1 "R" V 3936 4550 50  0000 C CNN
+F 2 "" V 4090 4540 50  0001 C CNN
+F 3 "~" H 4050 4550 50  0001 C CNN
+	1    4050 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 4750 3900 4550
+Wire Wire Line
+	3900 4550 3900 4350
+Connection ~ 3900 4550
+Wire Wire Line
+	3600 4750 3500 4750
+Wire Wire Line
+	3500 4750 3500 4550
+Wire Wire Line
+	3500 4350 3600 4350
+Wire Wire Line
+	3700 3950 3250 3950
+Wire Wire Line
+	3250 3950 3250 4550
+Wire Wire Line
+	3250 4550 3500 4550
+Connection ~ 3500 4550
+Wire Wire Line
+	3500 4550 3500 4350
+Wire Wire Line
+	4200 4550 5450 4550
+$Comp
+L Switch:SW_SPST SW4
+U 1 1 61DE7EE0
+P 3900 5250
+F 0 "SW4" H 3900 5485 50  0000 C CNN
+F 1 "Blue button" H 3900 5394 50  0000 C CNN
+F 2 "" H 3900 5250 50  0001 C CNN
+F 3 "~" H 3900 5250 50  0001 C CNN
+	1    3900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 61DE7EE6
+P 3750 5650
+F 0 "D7" H 3743 5867 50  0000 C CNN
+F 1 "LED" H 3743 5776 50  0000 C CNN
+F 2 "" H 3750 5650 50  0001 C CNN
+F 3 "~" H 3750 5650 50  0001 C CNN
+	1    3750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 61DE7EEC
+P 3750 6050
+F 0 "D8" H 3743 6267 50  0000 C CNN
+F 1 "LED" H 3743 6176 50  0000 C CNN
+F 2 "" H 3750 6050 50  0001 C CNN
+F 3 "~" H 3750 6050 50  0001 C CNN
+	1    3750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 61DE7EF2
+P 4050 5850
+F 0 "R4" V 3845 5850 50  0000 C CNN
+F 1 "R" V 3936 5850 50  0000 C CNN
+F 2 "" V 4090 5840 50  0001 C CNN
+F 3 "~" H 4050 5850 50  0001 C CNN
+	1    4050 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 6050 3900 5850
+Wire Wire Line
+	3900 5850 3900 5650
+Connection ~ 3900 5850
+Wire Wire Line
+	3600 6050 3500 6050
+Wire Wire Line
+	3500 6050 3500 5850
+Wire Wire Line
+	3500 5650 3600 5650
+Wire Wire Line
+	3700 5250 3250 5250
+Wire Wire Line
+	3250 5250 3250 5850
+Wire Wire Line
+	3250 5850 3500 5850
+Connection ~ 3500 5850
+Wire Wire Line
+	3500 5850 3500 5650
+$Comp
+L MCU_Module:Arduino_Nano_Every A1
+U 1 1 61DEF5F0
+P 7550 3600
+F 0 "A1" H 7550 2511 50  0000 C CNN
+F 1 "Arduino Pro Mini" H 7550 2420 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 7550 3600 50  0001 C CIN
+F 3 "https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf" H 7550 3600 50  0001 C CNN
+	1    7550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 61DF0AD6
+P 6300 2400
+F 0 "BT1" V 6055 2400 50  0000 C CNN
+F 1 "Battery (6-12V)" V 6146 2400 50  0000 C CNN
+F 2 "" V 6300 2460 50  0001 C CNN
+F 3 "~" V 6300 2460 50  0001 C CNN
+	1    6300 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW5
+U 1 1 61DF1F05
+P 7050 2400
+F 0 "SW5" H 7050 2635 50  0000 C CNN
+F 1 "Power switch" H 7050 2544 50  0000 C CNN
+F 2 "" H 7050 2400 50  0001 C CNN
+F 3 "~" H 7050 2400 50  0001 C CNN
+	1    7050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 61DF3680
+P 6700 4200
+F 0 "R5" V 6495 4200 50  0000 C CNN
+F 1 "160 ohm" V 6586 4200 50  0000 C CNN
+F 2 "" V 6740 4190 50  0001 C CNN
+F 3 "~" H 6700 4200 50  0001 C CNN
+	1    6700 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 3100 5550 3100
+Wire Wire Line
+	5550 3100 5550 1350
+Wire Wire Line
+	4100 1350 5550 1350
+Wire Wire Line
+	7050 3300 5500 3300
+Wire Wire Line
+	5500 3300 5500 2650
+Wire Wire Line
+	4100 2650 5500 2650
+Wire Wire Line
+	7050 3700 5500 3700
+Wire Wire Line
+	4100 5250 5500 5250
+Wire Wire Line
+	7050 3400 5450 3400
+Wire Wire Line
+	5450 3400 5450 1950
+Wire Wire Line
+	4200 1950 5450 1950
+Wire Wire Line
+	5400 3500 5400 3250
+Wire Wire Line
+	5400 3500 7050 3500
+Wire Wire Line
+	7050 3800 5450 3800
+Wire Wire Line
+	5450 3800 5450 4550
+Wire Wire Line
+	5400 3600 5400 3950
+Wire Wire Line
+	5400 3950 4100 3950
+Wire Wire Line
+	5400 3600 7050 3600
+Wire Wire Line
+	5500 5250 5500 3700
+Wire Wire Line
+	4200 5850 5550 5850
+Wire Wire Line
+	7050 3900 5550 3900
+Wire Wire Line
+	5550 3900 5550 5850
+Wire Wire Line
+	3250 1950 3250 2650
+Connection ~ 3250 1950
+Connection ~ 3250 2650
+Wire Wire Line
+	3250 3250 3250 3950
+Connection ~ 3250 3250
+Connection ~ 3250 3950
+Wire Wire Line
+	3250 4550 3250 5250
+Connection ~ 3250 4550
+Connection ~ 3250 5250
+Wire Wire Line
+	7250 2400 7450 2400
+Wire Wire Line
+	7450 2400 7450 2600
+Wire Wire Line
+	6100 2400 5900 2400
+Wire Wire Line
+	5900 2400 5900 2600
+$Comp
+L power:Earth #PWR02
+U 1 1 61E14DCC
+P 5900 2600
+F 0 "#PWR02" H 5900 2350 50  0001 C CNN
+F 1 "Earth" H 5900 2450 50  0001 C CNN
+F 2 "" H 5900 2600 50  0001 C CNN
+F 3 "~" H 5900 2600 50  0001 C CNN
+	1    5900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR01
+U 1 1 61E150F3
+P 3250 6400
+F 0 "#PWR01" H 3250 6150 50  0001 C CNN
+F 1 "Earth" H 3250 6250 50  0001 C CNN
+F 2 "" H 3250 6400 50  0001 C CNN
+F 3 "~" H 3250 6400 50  0001 C CNN
+	1    3250 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 5850 3250 6400
+Connection ~ 3250 5850
+$Comp
+L power:Earth #PWR03
+U 1 1 61E19595
+P 6750 4800
+F 0 "#PWR03" H 6750 4550 50  0001 C CNN
+F 1 "Earth" H 6750 4650 50  0001 C CNN
+F 2 "" H 6750 4800 50  0001 C CNN
+F 3 "~" H 6750 4800 50  0001 C CNN
+	1    6750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Crystal LS1
+U 1 1 61E1F880
+P 6000 4600
+F 0 "LS1" H 5966 4183 50  0000 C CNN
+F 1 "Passive buzzer" H 5966 4274 50  0000 C CNN
+F 2 "" H 5965 4550 50  0001 C CNN
+F 3 "~" H 5965 4550 50  0001 C CNN
+	1    6000 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 4200 7050 4200
+Wire Wire Line
+	6550 4200 6450 4200
+Wire Wire Line
+	6450 4200 6450 4500
+Wire Wire Line
+	6450 4500 6200 4500
+Wire Wire Line
+	6200 4600 6750 4600
+Wire Wire Line
+	6750 4800 6750 4600
+Connection ~ 6750 4600
+Wire Wire Line
+	6750 4600 7550 4600
+NoConn ~ 7050 2800
+NoConn ~ 7050 2900
+NoConn ~ 7050 3200
+NoConn ~ 7050 4100
+NoConn ~ 7050 4300
+NoConn ~ 8050 4300
+NoConn ~ 8050 4200
+NoConn ~ 8050 4100
+NoConn ~ 8050 4000
+NoConn ~ 8050 3900
+NoConn ~ 8050 3800
+NoConn ~ 8050 3700
+NoConn ~ 8050 3600
+NoConn ~ 8050 3400
+NoConn ~ 8050 3100
+NoConn ~ 8050 3000
+NoConn ~ 7750 2600
+NoConn ~ 7650 2600
+Wire Wire Line
+	6500 2400 6850 2400
+Wire Notes Line
+	3400 2300 4250 2300
+Wire Notes Line
+	4250 2300 4250 1050
+Wire Notes Line
+	4250 1050 3400 1050
+Wire Notes Line
+	3400 1050 3400 2300
+Wire Notes Line
+	4250 3600 4250 2350
+Wire Notes Line
+	4250 2350 3400 2350
+Wire Notes Line
+	3400 3600 4250 3600
+Wire Notes Line
+	3400 2350 3400 3600
+Wire Notes Line
+	4250 4900 4250 3650
+Wire Notes Line
+	4250 3650 3400 3650
+Wire Notes Line
+	3400 4900 4250 4900
+Wire Notes Line
+	3400 3650 3400 4900
+Wire Notes Line
+	4250 6200 4250 4950
+Wire Notes Line
+	4250 4950 3400 4950
+Wire Notes Line
+	3400 6200 4250 6200
+Wire Notes Line
+	3400 4950 3400 6200
+$EndSCHEMATC
