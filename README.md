@@ -1,9 +1,9 @@
 # SimonSays
- A reimagining of the Simon memorization game (https://en.wikipedia.org/wiki/Simon_(game))
+ A reimagining of the ![Simon](https://en.wikipedia.org/wiki/Simon_(game)) memorization game.
  
- Press the colored buttons in the right order to progress in the game
+ Press the colored buttons in the right order to progress in the game!
 
-![Simon Says game](https://raw.githubusercontent.com/Dr-CK/SimonSays/main/SimonSays_v3.jpg?raw=true)
+<img src="https://raw.githubusercontent.com/Dr-CK/SimonSays/main/SimonSays_v3.jpg?raw=true" alt="Simon Says game">
 
 ## Putting it together
 
@@ -11,13 +11,15 @@
 
 ### 3D printed enclosure
 
+ The enclosure is also available on ![Printables](https://www.printables.com/model/404689). If you do make your own, consider uploading a Make!
+
  The enclosure prints in two parts, I printed the bottom part completely without supports, which is not the prettiest on the inside, but it works. For the top part I recommend blocking support structures for the speaker mount and hole, but using supports for the roof and power switch mount.
 
  I printed mine in white PLA on an Ender 5 Pro (0.4mm nozzle) with 0.2mm layer height, 15% grid infill, and 4 vertical shells.
 
 ### Bill of materials
  - Arduino pro mini
- - 4x 28mm LED illuminated arcade buttons (something like this: https://www.arcadeworlduk.com/products/arcade-world-uk-ultimate-5v-illuminated-button-28mm.html)
+ - 4x 28mm LED illuminated arcade buttons (something like ![this](https://www.arcadeworlduk.com/products/arcade-world-uk-ultimate-5v-illuminated-button-28mm.html))
  - Piezo buzzer + current limiting resistor
  - Power switch
  - 9V battery + connector
@@ -35,7 +37,7 @@
 ## Play time!
 
  The basics should be fairly intuitive, but here are some details about how it works: The goal is to repeat the displayed sequence for as long as possible.
- There's no explicit way to see the current sequence length, but there will be a little melody playing after finishing 8, 16, 24, ... steps.
+ There's no explicit way to see the current sequence length, but there will be a little melody playing after finishing 8, 16, 24, etc... steps.
  It will also play another melody when setting a new high score. 
 
 ### Hold down buttons during power up to set the game mode
