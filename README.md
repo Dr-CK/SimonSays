@@ -3,8 +3,9 @@
  
  Press the colored buttons in the right order to progress in the game!
 
-<img src="https://raw.githubusercontent.com/Dr-CK/SimonSays/main/SimonSays_v3.jpg?raw=true"
+<img src="https://github.com/Dr-CK/SimonSays/blob/main/SimonSays_v3.jpg?raw=true"
   alt="Simon Says game"
+  title="Simon Says game"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ## Putting it together
