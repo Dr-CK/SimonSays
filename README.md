@@ -6,7 +6,11 @@
 <img src="https://github.com/Dr-CK/SimonSays/blob/main/SimonSays_v3.jpg?raw=true"
   alt="Simon Says game"
   title="Simon Says game"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 150px">
+  
+ It's controlled by an Arduino and uses standard LED arcade buttons.
+
+ See it in action on ![Youtube](https://youtu.be/gggHmTBMl-0)
 
 ## Putting it together
 
@@ -23,8 +27,8 @@
 ### Bill of materials
  - Arduino pro mini
  - 4x 28mm LED illuminated arcade buttons (something like ![this](https://www.arcadeworlduk.com/products/arcade-world-uk-ultimate-5v-illuminated-button-28mm.html))
- - Piezo buzzer + current limiting resistor
- - Power switch
+ - Piezo buzzer (12mm diameter) + current limiting resistor
+ - Power switch (12x8mm)
  - 9V battery + connector
  - 4x 3mm screws
 
@@ -43,7 +47,7 @@
  There's no explicit way to see the current sequence length, but there will be a little melody playing after finishing 8, 16, 24, etc... steps.
  It will also play another melody when setting a new high score. 
 
-### Hold down buttons during power up to set the game mode
+### Hold down buttons during power-up to set the game mode
  - Green: Easy mode (three attempts instead of just one) - Easy mode has it's own high score
  - Red: Reverse mode (enter the sequence in reverse order)
  - Blue: Multiplayer mode (see below)
