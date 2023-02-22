@@ -1,5 +1,5 @@
 # SimonSays
- A reimagining of the ![Simon](https://en.wikipedia.org/wiki/Simon_(game)) memorization game.
+ A reimagining of the [Simon](https://en.wikipedia.org/wiki/Simon_(game)) memorization game.
  
  Press the colored buttons in the right order to progress in the game!
 
@@ -10,7 +10,7 @@
   
  It's controlled by an Arduino and uses standard LED arcade buttons.
 
- See it in action on ![Youtube](https://youtu.be/gggHmTBMl-0)
+ See it in action on [Youtube](https://youtu.be/gggHmTBMl-0)!
 
 ## Putting it together
 
@@ -18,7 +18,7 @@
 
 ### 3D printed enclosure
 
- The enclosure is also available on ![Printables](https://www.printables.com/model/404689). If you do make your own, consider uploading a Make!
+ The enclosure is also available on [Printables](https://www.printables.com/model/404689). If you do make your own, consider uploading a Make!
 
  The enclosure prints in two parts, I printed the bottom part completely without supports, which is not the prettiest on the inside, but it works. For the top part I recommend blocking support structures for the speaker mount and hole, but using supports for the roof and power switch mount.
 
@@ -26,7 +26,7 @@
 
 ### Bill of materials
  - Arduino pro mini
- - 4x 28mm LED illuminated arcade buttons (something like ![this](https://www.arcadeworlduk.com/products/arcade-world-uk-ultimate-5v-illuminated-button-28mm.html))
+ - 4x 28mm LED illuminated arcade buttons (something like [this](https://www.arcadeworlduk.com/products/arcade-world-uk-ultimate-5v-illuminated-button-28mm.html))
  - Piezo buzzer (12mm diameter) + current limiting resistor
  - Power switch (12x8mm)
  - 9V battery + connector
