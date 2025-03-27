@@ -26,7 +26,7 @@
 
 ### Bill of materials
  - Arduino pro mini
- - 4x 28mm LED illuminated arcade buttons (something like [this](https://www.arcadeworlduk.com/products/arcade-world-uk-ultimate-5v-illuminated-button-28mm.html))
+ - 4x 24mm LED illuminated arcade buttons
  - Piezo buzzer (12mm diameter) + current limiting resistor
  - Power switch (12x8mm)
  - 9V battery + connector
